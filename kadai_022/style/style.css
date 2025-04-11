@@ -1,3 +1,6 @@
+body{
+  margin: 0;
+}
 h1 {
   margin: 0px;
   color: rgb(255, 255, 255);
@@ -81,21 +84,5 @@ a:hover {
   #parent {
     display: flex; /* 修正済み */
     flex-direction: column;
-  }
-}
-@media screen and (max-width: 768px){
-  h2{
-    font-size: 30px;
-  }
-  p{
-    font-size: 30px;
-  }
-  #parent{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-  .contents{
-    margin: 20px 0; /* 各コンテンツの上下に20pxの余白を設定 */
   }
 }
